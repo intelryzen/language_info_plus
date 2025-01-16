@@ -1,7 +1,9 @@
 name: language_info_plus
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: "A Flutter package that provides a comprehensive list of world languages with their ISO 639-1 codes, English names, and optional localized names based on the device's locale."
+version: 1.0.0
+repository: https://github.com/intelryzen/language_info_plus
+issue_tracker: https://github.com/intelryzen/language_info_plus/issues
+topics: [language, locale, picker]
 
 environment:
   sdk: ^3.0.0
@@ -54,3 +56,7 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/to/font-from-package
+
+screenshots:
+  - description: The flutter language_info_plus package logo.
+    path: screenshots/logo.png
