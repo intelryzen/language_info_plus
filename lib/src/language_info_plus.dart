@@ -45,9 +45,9 @@ abstract class LanguageInfoPlus {
   static Locale get deviceLocale => _deviceLocale;
 
   /// Attempts to match the device's language code to a Language. Returns null if not found.
-  static Language? get deviceLanguage {
+  static Language get deviceLanguage {
     final languageCode = _deviceLocale.languageCode;
-    return getLanguageByCode(languageCode);
+    return getLanguageByCode(languageCode)!;
   }
 
   /// Fetches a Language by its Language code (e.g., "en", "ko"). Returns null if not found.

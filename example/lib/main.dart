@@ -34,7 +34,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<Language> allLanguages = LanguageInfoPlus.languages;
-  Language? deviceLanguage = LanguageInfoPlus.deviceLanguage;
+  Language deviceLanguage = LanguageInfoPlus.deviceLanguage;
 
   @override
   Widget build(BuildContext context) {
