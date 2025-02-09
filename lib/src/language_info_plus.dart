@@ -11,6 +11,8 @@ abstract class LanguageInfoPlus {
   static Locale get _deviceLocale =>
       WidgetsBinding.instance.platformDispatcher.locale;
 
+  static bool get isLocalizationSupported => _localizedNames.isNotEmpty;
+
   static String _getAssetPath(String languageCode) {
     return 'packages/language_info_plus/assets/localized_names/$languageCode.json';
   }
