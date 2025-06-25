@@ -3,7 +3,7 @@ description: "A Flutter package that provides a comprehensive list of world lang
 version: 1.0.1
 repository: https://github.com/intelryzen/language_info_plus
 issue_tracker: https://github.com/intelryzen/language_info_plus/issues
-topics: [language, locale, picker]
+topics: [language, locale, code, iso, localization]
 
 environment:
   sdk: ^3.0.0
