@@ -52,9 +52,8 @@ abstract class LanguageInfoPlus {
     return getLanguageByCode(languageCode)!;
   }
 
-  /// Fetches a Language by its Language code (e.g., "en", "ko"). Returns null if not found.
+  /// Fetches a Language by its Language code (e.g., "en", "ko", "zh", "zh-TW"). Returns null if not found.
   static Language? getLanguageByCode(String languageCode) {
-    languageCode = languageCode.toLowerCase();
     final String? name = englishNames[languageCode];
     if (name == null) {
       return null;
